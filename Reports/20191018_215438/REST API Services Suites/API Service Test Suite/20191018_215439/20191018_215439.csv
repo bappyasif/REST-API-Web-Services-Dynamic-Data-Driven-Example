@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+API Service Test Suite,,API Service Test Suite Example,,2019-10-18 21:54:55,2019-10-18 21:55:05,9.597s,INCOMPLETE
+,,,,,,,
+Test Cases/REST API/API Chaining Example Test Case,,REST API Chaining Example Test,,2019-10-18 21:54:55,2019-10-18 21:55:01,5.639s,PASSED
+"usersList = sendRequest(findTestObject(""REST API Web Service/List Users""))",,,,2019-10-18 21:54:56,2019-10-18 21:54:58,2.055s,PASSED
+usersListJsonSlurper = new groovy.json.JsonSlurper(),,,,2019-10-18 21:54:58,2019-10-18 21:54:58,0.006s,PASSED
+usersListResponseResult = usersListJsonSlurper.parseText(usersList.getResponseBodyContent()),,,,2019-10-18 21:54:58,2019-10-18 21:54:58,0.019s,PASSED
+extractedUserResultValue = first_name,,,,2019-10-18 21:54:58,2019-10-18 21:54:58,0.010s,PASSED
+"println(""User Found : "" + extractedUserResultValue)",,,,2019-10-18 21:54:58,2019-10-18 21:54:58,0.004s,PASSED
+USER_NAME = extractedUserResultValue,,,,2019-10-18 21:54:58,2019-10-18 21:54:58,0.118s,PASSED
+"println(""User Found : "" + USER_NAME)",,,,2019-10-18 21:54:58,2019-10-18 21:54:58,0.002s,PASSED
+"sendRequestAndVerify(findTestObject(""REST API Web Service/Update User"", [""userName"":USER_NAME]))",,,,2019-10-18 21:54:58,2019-10-18 21:54:59,1.396s,PASSED
+"sendRequest(findTestObject(""REST API Web Service/Update User"", [""userName"":extractedUserResultValue]))",,,,2019-10-18 21:54:59,2019-10-18 21:55:00,0.843s,PASSED
+"sendRequest(findTestObject(""REST API Web Service/Update User"", [""userName"":""Bappy""]))",,,,2019-10-18 21:55:00,2019-10-18 21:55:01,0.814s,PASSED
+,,,,,,,
+Test Cases/REST API/API Service Example Test Case,,REST API Web Service Example Test Csse Scenario.,,2019-10-18 21:55:01,2019-10-18 21:55:05,3.605s,PASSED
+"sendRequest(findTestObject(""REST API Web Service/List Users""))",,,,2019-10-18 21:55:01,2019-10-18 21:55:02,0.363s,PASSED
+"sendRequestAndVerify(findTestObject(""REST API Web Service/List Users""))",,,,2019-10-18 21:55:02,2019-10-18 21:55:02,0.669s,PASSED
+"sendRequest(findTestObject(""REST API Web Service/Create User""))",,,,2019-10-18 21:55:02,2019-10-18 21:55:03,0.796s,PASSED
+"sendRequestAndVerify(findTestObject(""REST API Web Service/Create User""))",,,,2019-10-18 21:55:03,2019-10-18 21:55:05,1.623s,PASSED

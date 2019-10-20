@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/REST API/Data Driven API Test Case - Iteration 1","testCaseId":"Test Cases/REST API/Data Driven API Test Case","bindedValues":{"userName":"\u0027Bappy\u0027"}}
+{"testCaseName":"Test Cases/REST API/Data Driven API Test Case - Iteration 2","testCaseId":"Test Cases/REST API/Data Driven API Test Case","bindedValues":{"userName":"\u0027Sarkar\u0027"}}
+{"testCaseName":"Test Cases/REST API/Data Driven API Test Case - Iteration 3","testCaseId":"Test Cases/REST API/Data Driven API Test Case","bindedValues":{"userName":"\u0027Katalon\u0027"}}
+{"testCaseName":"Test Cases/REST API/Data Driven API Test Case - Iteration 4","testCaseId":"Test Cases/REST API/Data Driven API Test Case","bindedValues":{"userName":"\u0027Automation\u0027"}}

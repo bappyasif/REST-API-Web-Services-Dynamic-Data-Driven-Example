@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data Driven Test Suite,,REST API Service Example Data Driven Test Suite,,2019-10-18 22:15:26,2019-10-18 22:15:32,5.991s,INCOMPLETE
+,,,,,,,
+Test Cases/REST API/Data Driven API Test Case,,Data Driven REST API Service Test Example,,2019-10-18 22:15:26,2019-10-18 22:15:29,3.019s,PASSED
+"println(""User Name : "" + userName)",,,,2019-10-18 22:15:27,2019-10-18 22:15:27,0.005s,PASSED
+"sendRequest(findTestObject(""REST API Web Service/Create User"", [""userName"":userName]))",,,,2019-10-18 22:15:27,2019-10-18 22:15:29,2.679s,PASSED
+,,,,,,,
+Test Cases/REST API/Data Driven API Test Case,,Data Driven REST API Service Test Example,,2019-10-18 22:15:29,2019-10-18 22:15:30,0.929s,PASSED
+"println(""User Name : "" + userName)",,,,2019-10-18 22:15:29,2019-10-18 22:15:29,0.002s,PASSED
+"sendRequest(findTestObject(""REST API Web Service/Create User"", [""userName"":userName]))",,,,2019-10-18 22:15:29,2019-10-18 22:15:30,0.908s,PASSED
+,,,,,,,
+Test Cases/REST API/Data Driven API Test Case,,Data Driven REST API Service Test Example,,2019-10-18 22:15:30,2019-10-18 22:15:31,0.639s,PASSED
+"println(""User Name : "" + userName)",,,,2019-10-18 22:15:30,2019-10-18 22:15:30,0.001s,PASSED
+"sendRequest(findTestObject(""REST API Web Service/Create User"", [""userName"":userName]))",,,,2019-10-18 22:15:30,2019-10-18 22:15:31,0.622s,PASSED
+,,,,,,,
+Test Cases/REST API/Data Driven API Test Case,,Data Driven REST API Service Test Example,,2019-10-18 22:15:31,2019-10-18 22:15:32,0.772s,PASSED
+"println(""User Name : "" + userName)",,,,2019-10-18 22:15:31,2019-10-18 22:15:31,0.000s,PASSED
+"sendRequest(findTestObject(""REST API Web Service/Create User"", [""userName"":userName]))",,,,2019-10-18 22:15:31,2019-10-18 22:15:32,0.761s,PASSED
